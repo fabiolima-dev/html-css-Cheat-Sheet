@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,6 +24,14 @@
             <h3>Spans</h3>
             <p><span>Sintaxe:</span> &ltspan>Span Exemplo&lt/span><p>
             <p>Spans são utilizados para conteúdos inline</p>
+            <h3>Formatação de texto</h3>
+            <ul>
+                <li>&ltstrong><strong>Bold</strong>&lt/strong></li>
+                <li>&ltu><u>Uderline</u>&lt/u></li>
+                <li>&ltem><em>Italic</em>&lt/em></li>
+                <li>&lts><s>Taxado</s>&lt/s></li>
+                <li>&lthr> Para traçar uma linha da largura do container</li>
+            </ul>
             <h3>Anchor</h3>
             <p><span>Sintaxe:</span> &lta>Exemplo mensagem link&lt/a></p>
             <p>Utilizados dentro da tag:</p>
@@ -88,7 +96,84 @@
             <p>Doctype sempre no ínico do documento, abertura do html logo em seguida. Para quem
                  usa vscode pode ser utilizado o comando html:5 para formato de documento padrão</p>
         </section>
-
+        <section id="CSS">
+            <h2>CSS</h2>
+            <h3>CSS Selectors</h3>
+            <ul>
+                <li>.class Para selecionar pela classe</li>
+                <li>#id Para selecionar pelo id</li>
+                <li>elemento Para selecionar pelo elemento</li>
+                <li>!important após declaração para dar prioridade, exemplo: color: red !important</li>
+            </ul>
+            <h3>Formatações Básicas</h3>
+            <ul>
+                <li>color: cor Para mudar cor do texto</li>
+                <li>font-size: Para mudar o tamanho da fonte</li>
+                <li>font-family: Para mudar a família da fonte</li>
+                <li>background-color: Para mudar a cor de fundo</li>
+            </ul>
+            <h3>Resize</h3>
+            <ul>
+                <li>widht: largura</li>
+                <li>height: altura</li>
+                <li>length: comprimento</li>
+            </ul>
+            <h3>Box Model</h3>
+            <p>...-top, ...-right, ...-bottom, ...-left para mudar lados individualmente</p>
+            <p>clockwise notation: padding: top right bottom left</p>
+            <h4>Border</h4>
+            <ul>
+                <li>border-color: cor da borda</li>
+                <li>border-width: largura da borda</li>
+                <li>border-style: solid</li>
+                <li>border-radius: 50% for a circle</li>
+            </ul>
+            <h4>Padding</h4>
+            <ul>
+                <li></li>
+            </ul>
+            <h4>Margin</h4>
+            <p>Margens negativas fazem caixa aumentar de tamanho</p>
+            <ul>
+                <li></li>
+            </ul>
+            <p></p>
+            <h3>Absolute and Relative units</h3>
+            <h4>Absolute</h4>
+            <ul>
+                <li>px - pixels</li>
+                <li>in - inches / polegadas</li>
+                <li>mm - milimetros</li>
+            </ul>
+            <h4>Relative</h4>
+            <ul>
+                <li>rem / em - based on the font size</li>
+            </ul>
+            <h3>Colors</h3>
+            <ul>
+                <li>HEX: color:#00AAFF - abreviado: #0AF</li>
+                <li>RGB: color:rgb(255, 255, 255)</li>
+            </ul>
+            <h3>Variable</h3>
+            <p>Declarar no :root para escopo global, ou na seleção desejada, cor da variável: --nome-variável: blue;</p><br>
+            <p>Utilizar color: var(--nome-variável, cor reserva);</p><br>
+            <p>Váriaveis podem ser alteradas dentro de media querys</p>
+            <h3>Formatação de texto</h3>
+            <ul>
+                <li>text-align: justify;</li>
+                <li>text-align: center;</li>
+                <li>text-align: right;</li>
+                <li>text-align: left;</li>
+            </ul>
+            <h3>Propriedades</h3>
+            <ul>
+                <li>box-shadow: offset-x offset-y blur-radius spread-radius color</li>
+                <li>opacity: 0 to 1</li>
+                <li>text-transform: lowercase uppercase capitalize initial inherit none</li>
+                <li>line-height: Entrelinha</li>
+                <li>elemento:hover para editar o elemento on hover</li>
+            </ul>
+        </section>
     </main>
 </body>
 </html>
